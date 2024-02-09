@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Song</string>
+    <string name="Didn_t_receive_the_otp" />
+    <string name="resend_otp" />
+    <string name="play_button_description" />
+    <string name="pause_button_description" />
+    <string name="stop_button_description" />
+</resources>

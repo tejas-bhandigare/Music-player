@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1068233972555",
+    "project_id": "otp-verification-f86c3",
+    "storage_bucket": "otp-verification-f86c3.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1068233972555:android:fb0e03d154ca6a833866ce",
+        "android_client_info": {
+          "package_name": "com.example.song"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCAB6hCZV0z-yp6pZvUKNHdc00x7yxnMM8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

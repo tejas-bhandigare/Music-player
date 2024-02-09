@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".songplay">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="116dp"
+        android:layout_marginTop="100dp">
+
+
+        <ImageView
+            android:id="@+id/playButton"
+            android:layout_width="60dp"
+            android:layout_height="65dp"
+            app:srcCompat="@drawable/playbtnpng"
+            android:layout_marginStart="290dp"
+            android:layout_marginTop="40dp"
+            android:contentDescription="play_button_description"
+            android:clickable="true"
+            android:onClick="togglePlayback"/>
+
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="160dp"
+            android:layout_height="49dp"
+            android:text="Tu hai kha "
+            android:textSize="25sp"
+            android:paddingStart="15dp"
+            android:paddingTop="10dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginStart="15dp"/>
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="172dp"
+            android:layout_height="31dp"
+            android:layout_marginTop="60dp"
+            android:text="Raffey Usama"
+            android:textSize="22sp"
+            android:paddingStart="30dp"/>
+
+        <ImageView
+            android:id="@+id/pauseButton"
+            android:layout_width="65dp"
+            android:layout_height="60dp"
+            app:srcCompat="@drawable/pause"
+            android:layout_marginTop="40dp"
+            android:layout_marginStart="290dp"
+            android:visibility="gone"
+            android:clickable="true"
+            android:onClick="togglePlayback"/>
+
+        <ImageView
+            android:id="@+id/stopButton"
+            android:layout_width="65dp"
+            android:layout_height="67dp"
+            app:srcCompat="@drawable/stop"
+            android:layout_marginStart="235dp"
+            android:layout_marginTop="37dp"
+            android:visibility="gone"
+        android:clickable="true"
+        android:onClick="stopPlayback"
+        />
+    </androidx.cardview.widget.CardView>
+
+
+
+
+</RelativeLayout>
